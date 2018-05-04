@@ -73,7 +73,7 @@ session_start();
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Não sou um robô.</label>
             </div>
-            <button type="submit" class="btn btn-outline-danger">Enviar</button>
+            <button type="submit" class="btn btn-outline-danger"><a href="../entrada.php" style="color: #8e0000;">Enviar</a></button>
 
         </form>
 
@@ -83,7 +83,7 @@ session_start();
 
 
         <h1>Bem vindo  <?= $_SESSION['nome'] ?></h1>
-        <button class="btn btn-primary"><a href="logout.php" style="text-decoration:none">Logout</button>
+        <button class="btn btn-primary"><a href="../logout.php" style="text-decoration:none">Logout</button>
 
         <?php
     }

@@ -1,6 +1,6 @@
 <?php include "../cabecalho.php"?>
 
-<h3 style="margin-left: 700px; color: #8e0000"> CADASTRO DO DICENTE </h3>
+<h3 style="margin-left: 700px; color: #8e0000"> CADASTRO DO DISCENTE </h3>
 
 <form style="margin-left: 450px; margin-right: 450px; margin-top: 100px">
     <div class="form-group row">
@@ -10,7 +10,7 @@
         </div>
     </div>
     <div class="form-group row">
-        <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+        <label for="inputPassword3" class="col-sm-2 col-form-label">Senha</label>
         <div class="col-sm-10">
             <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
         </div>

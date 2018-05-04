@@ -40,7 +40,7 @@ session_start();
 //}
 //?>
 
-<h3 style="margin-left: 800px; color: #8e0000"> LOGIN DO DICENTE </h3>
+<h3 style="margin-left: 800px; color: #8e0000"> LOGIN DO DISCENTE </h3>
 
 <div id="campos" class="container" >
 
@@ -69,7 +69,7 @@ session_start();
                     <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
                 </div>
             </div>
-            <button type="submit" class="btn btn-outline-danger">Enviar</button>
+            <button type="submit" class="btn btn-outline-danger"><a href="../entrada.php" style="color: #8e0000;">Enviar</a></button>
 
         </form>
 
