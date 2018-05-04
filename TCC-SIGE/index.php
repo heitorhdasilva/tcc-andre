@@ -2,10 +2,10 @@
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
-<div class="btn" aria-label="..." style="margin-left:700px; margin-top:20px; color: #8e0000 ">
+<div class="btn" aria-label="..." style="margin-left:800px; margin-top:20px;">
 
-    <a href="Login/loginAberto.php"><button type="button" class="btn btn-primary btn-lg">Login</button></a>
-    <a href="Cadastro/cadastroAberto.php"><button type="button" class="btn btn-primary btn-lg ">Cadastro</button></a>
+    <a href="Login/loginAberto.php"><button type="button" class="btn btn-outline-danger">Login</button></a>
+    <a href="Cadastro/cadastroAberto.php"><button type="button" class="btn btn-outline-danger">Cadastro</button></a>
     <br><br>
 
 </div>

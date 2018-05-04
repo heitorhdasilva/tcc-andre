@@ -61,7 +61,7 @@
     </div>
     <div class="form-group row">
         <div class="col-sm-10">
-            <button type="submit" class="btn btn-primary">Cadastrar</button>
+            <button type="submit" class="btn btn-outline-danger">Cadastrar</button>
         </div>
     </div>
 </form>

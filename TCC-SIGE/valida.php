@@ -10,9 +10,9 @@ function verificaLogin($login, $senha){
 }
 
 if (verificaLogin($_POST['login'],$_POST['senha'])){
-    $_SESSION['nome'] = "Admin";
+    $_SESSION['nome'] = "admin";
     header('Location: index.php');
 }else{
-    header('Location: login.php?erro=1');
+    header('Location: loginDicente.php?erro=1');
 }
 
