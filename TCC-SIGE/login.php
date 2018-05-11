@@ -5,41 +5,6 @@ session_start();
 <?php include "cabecalho.php"?>
 
 
-<!--<div id="campos">-->
-<!---->
-<!--    --><?php
-//
-//    if(isset($_GET['erro']) and $_GET['erro']==1){
-//        echo ('Usuário ou senha incorretos.');
-//    }
-//    ?>
-<!---->
-<!--    --><?php
-//
-//    if (!isset($_SESSION['nome'])){
-//    ?>
-<!---->
-<!--    <form method="post" action="valida.php">-->
-<!--        <input type="text" name="login" placeholder="Usuário"><br><br>-->
-<!--        <input type="password" name="senha" placeholder="Senha"><br><br>-->
-<!--        <input type="submit" value="Entrar">-->
-<!--    </form>-->
-<!--    <br>-->
-<!--    <br>-->
-<!--    <br>-->
-<!--</div>-->
-<?php
-//}else {
-//    ?>
-<!---->
-<!---->
-<!--    <h4>Bem vindo  --><?//= $_SESSION['nome'] ?><!--</h4>-->
-<!--    <button><a href="logout.php" style="text-decoration:none">Logout</button>-->
-<!---->
-<!--    --><?php
-//}
-//?>
-
 
 <div id="campos" class="container" >
 
