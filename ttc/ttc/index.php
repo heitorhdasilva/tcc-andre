@@ -44,11 +44,11 @@
         </div>
     </nav>
 
-    <form>
+    <form action="?acao=cadastrar" method="post">
         <div class="form-row">
             <div class="col-md-4 mb-3">
                 <label for="validationServer01">First name</label>
-                <input type="text" class="form-control" id="validationServer01" placeholder="First name" value="Nome" required>
+                <input type="text" class="form-control" id="validationServer01" name="nome" placeholder="First name" value="Nome" required>
             </div>
             <div class="col-md-4 mb-3">
                 <label for="validationServer02">Last name</label>
@@ -66,8 +66,8 @@
         </div>
         <div class="form-row">
             <div class="col-md-6 mb-3">
-                <label for="validationServer03">City</label>
-                <input type="text" class="form-control" id="validationServer03" placeholder="City" required>
+                <label for="validationServer03">Data</label>
+                <input type="text" class="form-control" id="validationServer03" name="data" placeholder="date" required>
             </div>
             <div class="col-md-3 mb-3">
                 <label for="validationServer04">State</label>
@@ -75,7 +75,7 @@
             </div>
             <div class="col-md-3 mb-3">
                 <label for="validationServer05">Zip</label>
-                <input type="text" class="form-control" id="validationServer05" placeholder="Zip" required>
+                <input type="number" class="form-control" id="validationServer05" name="cpf" placeholder="Cpf" required>
             </div>
         </div>
         <div class="form-group">
@@ -86,7 +86,7 @@
                 </label>
             </div>
         </div>
-        <button class="btn btn-primary" type="submit">Submit form</button>
+        <input type="submit" name="enviar">
     </form>
 
     <button type="button" class="btn btn-lg btn-info" data-toggle="popover" title="o ivo e bonito"

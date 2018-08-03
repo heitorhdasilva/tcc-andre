@@ -18,8 +18,8 @@ class Cad_user
         $this->dataNasc = $dataNasc;
         $this->ocupacao = $ocupacao;
         $this->sexo =     $sexo;
-        $this->sexo =     $usuario;
-        $this->sexo =     $senha;
+        $this->usuario =     $usuario;
+        $this->senha =     $senha;
 
     }
     public function getCpf(){return  $this->cpf;}
